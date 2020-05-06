@@ -1,0 +1,86 @@
+body {
+     padding: 0;
+     margin: 0;
+} 
+
+.h1Title{
+    display: inline-flex;
+    font-size: 135px;
+    font-family: 'Metamorphous', cursive;
+    color: rgb(119, 0, 16);
+    text-decoration-line: line-through;
+}
+
+.h3title{
+    font-family: 'Metamorphous', cursive;
+    font-size: 25px;
+    color: rgb(190, 14, 37);
+    letter-spacing: 20px;
+}
+
+.holdh3{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+    flex: 0 0 50%;
+}
+
+.contain-h1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 22%;
+    padding-top: 20%;
+}
+
+
+
+.contain {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.holdVideo {
+    flex: 0 0 440px;
+    margin: 20px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.musicVid {
+   display: flex;
+   flex-direction: column;
+}
+
+.contain-video{
+    background-color: rgba(8, 1, 1, 0.603);
+    background-position: cover;
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.embedded{
+    margin-top: 15px;
+}
+
+video {
+    /* border-bottom: 3px solid rgb(8, 1, 1); */
+}
+
+
+/* rgba(226, 37, 37, 0.603) */
